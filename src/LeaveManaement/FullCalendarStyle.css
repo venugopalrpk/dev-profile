@@ -1,0 +1,288 @@
+CalendarStyles.css .fc .fc-daygrid-day-frame {
+	padding-top: 2px; /* Reduce top padding */
+	padding-bottom: 2px; /* Reduce bottom padding */
+}
+
+.fc .fc-daygrid-day-events {
+	min-height: 0; /* Reduce minimum height of event container */
+}
+
+.fc .fc-daygrid-day-top {
+	padding: 2px; /* Reduce padding around the day number */
+}
+
+/* You may need to adjust the margin for the rows themselves */
+.fc .fc-daygrid-body .fc-daygrid-row {
+	margin-bottom: 0; /* Reduce or remove bottom margin for rows */
+}
+/* CalendarStyles.css */
+.selected-date {
+	background-color: #abcdef !important; /* Replace with your desired color */
+}
+.fc .fc-daygrid-day.fc-day-today {
+	/* background-color: #012169; */
+	border-radius: 50%;
+}
+.today {
+	/* Different styling for the current day, if desired */
+	border: 1px solid #ff0000 !important; /* Just an example */
+}
+/* CalendarStyles.css */
+.fc .fc-button-primary {
+	background-color: transparent !important; /* Set background to transparent */
+	border: none !important; /* Remove border */
+	padding: 0 !important; /* Remove padding */
+	box-shadow: none !important; /* Remove box shadow if there is any */
+}
+
+/* If there's a specific class for the prev/next buttons, target them individually */
+.fc .fc-prev-button,
+.fc .fc-next-button {
+	background-color: transparent !important; /* Set background to transparent */
+	/* Add any other style overrides as needed */
+}
+.fc .fc-button .fc-icon {
+	color: #012169;
+}
+.fc .fc-toolbar-title {
+	font-size: 20px;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+}
+.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+	display: block;
+	min-height: 0.1em !important;
+}
+.fc-theme-standard td,
+.fc-theme-standard th {
+	border: none;
+}
+.fc .fc-daygrid-day-top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fc .fc-daygrid-day-frame {
+	min-height: 50% !important;
+	position: relative;
+}
+
+/* Remove padding from the day cell */
+.fc-daygrid-day {
+	padding: 0 !important; /* Adjust this value as needed */
+}
+
+/* Remove margin from elements inside the day cell */
+.fc-daygrid-day-frame,
+.fc-daygrid-day-events,
+.fc-daygrid-day-top,
+.fc-daygrid-day-number {
+	margin: 0 !important; /* Adjust this value as needed */
+}
+
+/* Remove padding and margin from pseudo-elements */
+.fc-daygrid-day::before,
+.fc-daygrid-day::after {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+/* If the padding is coming from the bottom div, you can hide it or set its margin to 0 */
+.fc-daygrid-day-bottom {
+	display: none !important; /* or margin: 0 !important; */
+}
+
+#root
+	> div
+	> div
+	> div
+	> div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-2\.5.css-k9jfdx-MuiGrid-root
+	> div
+	> div.fc-view-harness.fc-view-harness-active
+	> div
+	> table
+	> tbody
+	> tr
+	> td
+	> div
+	> div
+	> div
+	> table
+	> tbody
+	> tr:nth-child(2) {
+	padding: 0px !important;
+	height: 30px !important;
+}
+#root
+	> div
+	> div
+	> div
+	> div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-2\.5.css-k9jfdx-MuiGrid-root
+	> div
+	> div.fc-view-harness.fc-view-harness-active
+	> div
+	> table
+	> tbody
+	> tr
+	> td
+	> div
+	> div
+	> div
+	> table
+	> tbody
+	> tr:nth-child(3) {
+	height: 30px !important;
+}
+#root
+	> div
+	> div
+	> div
+	> div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-2\.5.css-k9jfdx-MuiGrid-root
+	> div
+	> div.fc-view-harness.fc-view-harness-active
+	> div
+	> table
+	> tbody
+	> tr
+	> td
+	> div
+	> div
+	> div
+	> table
+	> tbody
+	> tr:nth-child(4) {
+	height: 30px !important;
+}
+#root
+	> div
+	> div
+	> div
+	> div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-2\.5.css-k9jfdx-MuiGrid-root
+	> div
+	> div.fc-view-harness.fc-view-harness-active
+	> div
+	> table
+	> tbody
+	> tr
+	> td
+	> div
+	> div
+	> div
+	> table
+	> tbody
+	> tr:nth-child(1) {
+	height: 30px !important;
+}
+#root
+	> div
+	> div
+	> div
+	> div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-2\.5.css-k9jfdx-MuiGrid-root
+	> div
+	> div.fc-view-harness.fc-view-harness-active
+	> div
+	> table
+	> tbody
+	> tr
+	> td
+	> div
+	> div
+	> div
+	> table
+	> tbody
+	> tr:nth-child(6) {
+	height: 30px !important;
+}
+#root
+	> div
+	> div
+	> div
+	> div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-2\.5.css-k9jfdx-MuiGrid-root
+	> div
+	> div.fc-view-harness.fc-view-harness-active
+	> div
+	> table
+	> tbody
+	> tr
+	> td
+	> div
+	> div
+	> div
+	> table
+	> tbody
+	> tr {
+	height: 30px !important;
+}
+/* #root
+  > div
+  > div
+  > div
+  > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-2\.5.css-k9jfdx-MuiGrid-root
+  > div
+  > div.fc-view-harness.fc-view-harness-active
+  > div
+  > table
+  > tbody
+  > tr
+  > td
+  > div
+  > div
+  > div
+  > table {
+  height: 200px !important;
+} */
+/* #root > div > div > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-2\.5.css-k9jfdx-MuiGrid-root > div > div.fc-view-harness.fc-view-harness-active > div > table > tbody > tr > td > div > div > div > table > tbody > tr:nth-child(5){
+  height: 30px;
+} */
+/* Hides the original day names */
+.fc-col-header-cell-cushion {
+	visibility: hidden;
+}
+#root
+	> div
+	> div
+	> div
+	> div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-2\.5.css-k9jfdx-MuiGrid-root
+	> div
+	> div.fc-view-harness.fc-view-harness-active
+	> div
+	> table
+	> thead
+	> tr
+	> th
+	> div
+	> div {
+	height: 30px;
+}
+/* Inserts single-letter day names */
+.fc-col-header-cell-cushion::before {
+	content: attr(aria-label); /* This will be the full day name */
+	visibility: visible;
+	display: block;
+	text-align: center;
+}
+
+/* Specific single-letter content overrides */
+.fc-col-header-cell-cushion[aria-label='Sunday']::before {
+	content: 'S';
+}
+.fc-col-header-cell-cushion[aria-label='Monday']::before {
+	content: 'M';
+}
+.fc-col-header-cell-cushion[aria-label='Tuesday']::before {
+	content: 'T';
+}
+.fc-col-header-cell-cushion[aria-label='Wednesday']::before {
+	content: 'W';
+}
+.fc-col-header-cell-cushion[aria-label='Thursday']::before {
+	content: 'T';
+}
+.fc-col-header-cell-cushion[aria-label='Friday']::before {
+	content: 'F';
+}
+.fc-col-header-cell-cushion[aria-label='Saturday']::before {
+	content: 'S';
+}

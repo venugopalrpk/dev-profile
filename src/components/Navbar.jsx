@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
 	AppBar,
 	Box,
-	Grid,
 	Toolbar,
 	Typography,
 	IconButton,
@@ -11,7 +10,6 @@ import {
 } from '@mui/material';
 import { Link } from 'react-router-dom';
 import useStyles from '../styles';
-import CustomLink from './CustomLink';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 

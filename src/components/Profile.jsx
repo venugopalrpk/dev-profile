@@ -1,7 +1,6 @@
 import React from 'react';
 import useStyles from '../styles';
 import { Box, Button, Grid, Typography, useMediaQuery } from '@mui/material';
-import ProfilePic from '../assets/profilePic.png';
 
 const ProfileSection = () => {
 	const classes = useStyles();
